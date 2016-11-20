@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/icon"
+        android:src="@color/colorPrimary"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@+id/icon"
+        android:layout_alignEnd="@+id/weather" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weather"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/icon"
+        android:layout_marginStart="54dp" />
+
+    <TextView
+        android:id="@+id/daytemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="daytemp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@+id/icon"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="69dp" />
+
+    <TextView
+        android:id="@+id/nighttemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nighttemp"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:layout_alignTop="@+id/weather"
+        android:layout_alignEnd="@+id/daytemp" />
+</RelativeLayout>

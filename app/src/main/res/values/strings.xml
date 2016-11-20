@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">W.F.R</string>
+    <string name="title_activity_maps">Map</string>
+    <!--string name="open_weather_api_key">9f3dfd22da593d6c74c3f991e1b32790</string-->
+    <string name="service_not_available">service not available</string>
+    <string name="invalid_lat_long_used">invalid lat long used</string>
+    <string name="dialog_text">Do you want to remove this marker?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+</resources>
